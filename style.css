@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.mid-content{
+    max-width: 1300px;
+    margin: auto;
+}
+
+/*  Header-Section CSS  */
+.header-section{
+    background-color: #000;
+}
+.logo-section{
+    width: 40%;
+}
+.logo img{
+    width: 100px;
+}
+.menu-section{
+    width: 60%;
+}
+.main-menu ul li{
+    display: inline-block;
+}
+.main-menu ul li a {
+    display: block;
+    color: #fff;
+    padding: 0 20px;
+    font-size: 20px;
+    line-height: 68px;  
+}
+.main-menu ul li:hover{
+    text-decoration: underline; 
+}
+
+/*  DropDown Menu  */
+.main-menu ul li{
+    position: relative;
+}
+.main-menu ul li ul{
+    position: absolute;
+    left: 0;
+    top: 105%;
+    background: #000;
+    width: 300px;
+    text-align: left;
+
+    opacity: 0;
+    visibility: hidden;
+}
+.main-menu ul li ul li{
+    display: block;
+}
+.main-menu ul li ul li a{
+    display: block;
+}
+.main-menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
+.main-menu ul li ul li:hover a{
+    background-color: #fff;   
+    color: #000;
+}
+
+/*  Banner Section CSS  */
+.banner-section{
+    background: url(https://i.ibb.co/ZzRynMt/banner.jpg) no-repeat center center;
+    padding: 300px;
+    background-size: cover;
+}
+.banner-content h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.banner-content p{
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+}
+button.s-btn {
+    background: #000;
+    color: #fff;
+    margin-right: 5px;
+    border: 2px solid #000;
+    font-weight: bold;
+}
+button.s-btn:hover{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+button.c-btn{
+    border: 2px solid #fff;
+    font-weight: bold;
+}
+button.c-btn:hover{
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+/*  Jillur Section CSS  */
+.jillur-section{
+    background-color: #87a471;
+    padding: 50px 0;
+}
+.about-content{
+    width: 48%;
+    color: #fff;
+    margin-top: 45px;
+}
+.section-title h1{
+    font-size: 40px;
+    display: inline;
+    color: #e8dfda;
+    border-bottom: 2px solid #ddd;
+    text-shadow: 0px 0px 3px #e8dfda;
+    padding-bottom: 5px;
+}
+.about-content p{
+    font-size: 20px;
+    line-height: 1.4em;
+}
+.img-content{
+    width: 48%;
+    margin-top: 45px;
+}
+img{
+    width: 300px;
+}
+
+/*  Service Section CSS  */
+.service-section{
+    padding: 50px 0;
+    background-color: #606a64;
+}
+.service-title h1 {
+    font-size: 45px;
+    display: inline;
+    color: #e8dfda;
+    border-bottom: 2px solid #e8dfda;
+    padding-bottom: 5px;
+    text-shadow: 0px 0px 3px #e8dfda;
+}
+.service-title {
+    color: #e8dfda;
+    width: 700px;
+    margin: auto;
+}
+.service-title h2 {
+    margin: 30px 0;
+    font-size: 37px;
+}
+.service-title p {
+    margin-bottom: 60px;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+.service-img {
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+    display: block;
+    height: 140px;
+}
+.s-img {
+   width: 35px;
+}
+.v-service {
+    width: 30%;
+    margin-right: 3.3%;
+    background-color: #fff;
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.v-service-content h3 {
+    font-size: 26px;
+    color: #536d88;
+    margin-bottom: 10px;
+}
+.v-service-content p {
+    font-size: 17px;
+    color: #767676;
+    line-height: 1.4em;
+    font-weight: bold;
+}
+
+/*  Check Section CSS  */
+.check-section{
+    padding: 100px 0;
+    background-color: #87a471;
+}
+
+.check-title {
+    color: #fff;
+}
+.check-title h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+.check-title p {
+    font-size: 20px;
+}
+
+.big-picture-box {
+    display: inline-block;
+    margin: 60px 10px;
+    border: 1px solid #ddd;
+    width: 400px;
+    height: 100%;
+    padding-bottom: 15px;
+}
+.big-picture-box img{
+    width: 100%;
+}
+.big-picture-box h3 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #4f6985;
+    margin: 10px 0;
+}
+.big-picture-box span{
+    color: #ddd;
+    font-weight: bold;
+}
+
+.small-picture-row img {
+    width: 195px;
+    margin-right: 15px;
+}
+.small-picture-row img:last-child{
+    margin-right: 0;
+}
+
+/*  Team Member Section CSS  */
+.team-member-section{
+    background-color: #5b9776;
+    padding: 50px 0;
+}
+.team-title h1 {
+    display: inline;
+    color: #fff;
+    border-bottom: 3px solid #e8dfda;
+    margin-bottom: 30px;
+    padding-bottom: 7px;
+}
+.team-members{
+    margin-top: 50px;
+}
+
+.team-members-bio{
+    width: 30.3%;
+    margin-right: 3%;
+}
+.team-members-bio:last-child{
+    margin-right: 0;
+}
+.team-members-bio img{
+    width: 100%;
+}
+.i-con-div{
+    margin-top: 10px;
+}
+.team-members-bio a {
+    color: #fff;
+    margin-right: 7px;
+    font-size: 25px;
+}
+.team-members-bio i:focus{
+    background-color: #5d7794;
+}
+
+/*  Contact Section CSS  */
+.contact-section{
+    background-color: #606a64;
+    padding: 100px 0;
+}
+.contact-title{
+    color: #e8dfda;
+}
+.contact-title h2 {
+    font-size: 40px;
+    margin-bottom: 25px;
+    text-shadow: 0px 0px 1.5px #e8dfda;
+}
+.contact-title p {
+    font-size: 21px;
+    margin-bottom: 25px;
+}
+.footer-button {
+    background: #00bc9c;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px 35px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: -1px -1px 30px 0 rgba(42, 128, 142, 0.1);
+    transition: .3s;
+}
+.footer-button:hover{
+    background-color: #2a808e;
+}
+
+.footer-section{
+    background-color: #000;
+    padding: 20px 0;
+    color: #fff;
+    font-size: 20px;
+}
